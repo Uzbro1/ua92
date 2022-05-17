@@ -1,0 +1,26 @@
+
+<html>
+<body>
+<p id="demo"></p>
+<button onclick="gradeCalculator()">Check your grade</button>
+<script>
+
+	function gradeCalculator() {
+		var grade = 55;
+
+
+		if (grade < 40) {
+		document.getElementById("demo").innerHTML="Fail";
+		} else if (grade>=41 && grade<50) {
+		document.getElementById("demo").innerHTML="3rd class";
+		} else if (grade>=51 && grade<60) {
+		document.getElementById("demo").innerHTML="2.2";
+		} else if (grade>=61 && grade<70) {
+		document.getElementById("demo").innerHTML="2.1";
+		} else {
+		document.getElementById("demo").innerHTML="1st class";
+		}
+	}
+</script>
+</body>
+</html>
